@@ -25,7 +25,14 @@ const GridRowCols = styled.div`
 	display: grid;
 	grid-template-columns: ${props => props.gridColSizeItems};
 	grid-column-gap: 30px;
-	grid-row-gap: 20px;
+  grid-row-gap: 20px;
+  max-width: 100%;
+   @media (max-width: 420px) {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-column-gap: 1.6em;
+    grid-row-gap: 1.2em;
+  }
 `;
 
 export default RowContainerWrapper;

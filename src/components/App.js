@@ -11,7 +11,7 @@ function App() {
 		<div className="App">
 			<MainWrapper>
 				{/* row one */}
-				<RowContainerWrapper gridColSizeItems={[2, 1, 1]}>
+				<RowContainerWrapper gridColSizeItems={[3, 1, 1]}>
 					<ContainerPanel
 						colSize="2"
 						title="This is a 2 column stretch"></ContainerPanel>
@@ -22,7 +22,7 @@ function App() {
 						colSize="1"
 						title="This is a 1 column"></ContainerPanel>
 				</RowContainerWrapper>
-				<RowContainerWrapper gridColSizeItems={[2, 2]}>
+				<RowContainerWrapper gridColSizeItems={[4 ]}>
 					<ContainerPanel
 						colSize="2"
 						title="This is a 2 column stretch"></ContainerPanel>
